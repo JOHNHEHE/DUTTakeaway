@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="15">
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:iconifiedByDefault="false"
+        app:queryHint="搜索店名"
+        android:background="#F0F0F0F0" >
+    </android.support.v7.widget.SearchView>
+
+        <TextView
+            android:id="@+id/text_hide"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:visibility="gone"
+            android:textSize="30dp"
+            android:textColor="@color/blue_text"
+            android:gravity="center"
+            android:text="Nothing to Show!"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_store"
+        android:layout_height="400dp"
+        android:layout_width="match_parent"
+        android:layout_weight="17"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_weight="1">
+    <RadioGroup
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/white_bg"
+        android:background="#dcdcdc"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_home"
+            android:text="主页" />
+
+        <RadioButton
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_order"
+            android:text="订单" />
+
+        <RadioButton
+            android:id="@+id/me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_me"
+            android:text="我的" />
+
+    </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

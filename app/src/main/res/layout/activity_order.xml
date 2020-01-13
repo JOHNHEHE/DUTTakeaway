@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_container"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="446dp"
+        android:layout_weight="15"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:background="#008577"
+            android:text="留言区" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_weight="1">
+        <RadioGroup
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="#FFFF"
+            android:background="#dcdcdc"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@null"
+                android:drawableTop="@drawable/ic_home"
+                android:text="主页" />
+
+            <RadioButton
+                android:id="@+id/order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:checked="true"
+                android:button="@null"
+                android:drawableTop="@drawable/ic_order"
+                android:text="订单" />
+
+            <RadioButton
+                android:id="@+id/me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@null"
+                android:drawableTop="@drawable/ic_me"
+                android:text="我的" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/style_item">
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/orderStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="50dp"
+            android:textColor="@color/color_red"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/orderdish"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/orderNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textColor="#ffff"
+            android:background="#008577"
+            android:text="取消订单" />
+
+        <Button
+            android:id="@+id/makecomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#008577"
+            android:textColor="#ffff"
+            android:text="评价" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

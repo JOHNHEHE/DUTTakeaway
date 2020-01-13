@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff0f0f0"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大工订餐系统"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/userNameText"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="请输入学号"
+            android:inputType="number"
+            android:paddingBottom="2.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="2.0dip"
+            android:singleLine="true"
+            android:textColorHint="#ff999999"
+            android:textSize="16.0sp" />
+
+        <EditText
+            android:id="@+id/passwdText"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="#ffffff"
+            android:drawablePadding="15.0dip"
+            android:ems="10"
+            android:hint="请输入密码(默认学号)"
+            android:inputType="textPassword"
+            android:paddingBottom="2.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="2.0dip"
+            android:singleLine="true"
+            android:textColorHint="#ff999999"
+            android:textSize="16.0sp" />
+
+        <Button
+            android:id="@+id/bnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:background="#5CACEE"
+            android:singleLine="true"
+            android:text="登录"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

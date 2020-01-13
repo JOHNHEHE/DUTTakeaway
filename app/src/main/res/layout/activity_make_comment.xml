@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff0f0f0"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/commenttoStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textSize="32.0sp"/>
+
+    <EditText
+        android:id="@+id/commentText"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_marginTop="15.0dip"
+        android:background="#FFFFFF"
+        android:hint="请输入评价信息"
+        android:paddingBottom="2.0dip"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:paddingTop="2.0dip"
+        android:singleLine="true"
+        android:textColorHint="#ff999999"
+        android:textSize="16.0sp" />
+
+    <Button
+        android:id="@+id/bnMakeComment"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:background="#008577"
+        android:singleLine="true"
+        android:text="发表评价"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp" />
+
+</LinearLayout>
