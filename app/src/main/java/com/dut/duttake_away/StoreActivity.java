@@ -41,7 +41,7 @@ public class StoreActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_layout);
-        Bmob.initialize(this, "de874870bebc9b04ab0fb6478020c7e6");
+        Bmob.initialize(this, "");  //输入application key
 
 
         Button order=findViewById(R.id.order);

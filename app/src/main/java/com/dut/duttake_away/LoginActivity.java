@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Bmob.initialize(this, "de874870bebc9b04ab0fb6478020c7e6");
+        Bmob.initialize(this, "");  //输入application key
         initial();
     }
 
