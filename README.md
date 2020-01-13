@@ -21,15 +21,25 @@ Bmob.initialize(this, "此处输入你的Application Key");
 **部分运行界面截图**
 
 ![欢迎界面](https://img-blog.csdnimg.cn/2020011317594993.png)
+
 *欢迎界面*
+
 ![主页](https://img-blog.csdnimg.cn/20200113180206936.png)
+
 *主页*
+
 ![点餐界面](https://img-blog.csdnimg.cn/20200113180346994.png)
+
 *点餐界面*
+
 ![订单页面](https://img-blog.csdnimg.cn/20200113180525480.png)
+
 *订单页面*
+
 ![我的页面](https://img-blog.csdnimg.cn/20200113180632520.png)
+
 *我的页面*
+
 
 ## 写在最后
 由于时间和水平有限，并没有使用一些主流的架构，所用到的图片资源也保存在了本地。希望能有帮助_(:з」∠)_
