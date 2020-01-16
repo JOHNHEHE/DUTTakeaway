@@ -20,7 +20,7 @@ Bmob.initialize(this, "此处输入你的Application Key");
 
 **部分运行界面截图**
 
-![欢迎界面](https://img-blog.csdnimg.cn/2020011317594993.png)
+![欢迎](https://img-blog.csdnimg.cn/20200116193025666.png)
 
 *欢迎界面*
 
